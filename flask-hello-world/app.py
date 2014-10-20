@@ -7,6 +7,9 @@ from flask import Flask
 # create an instance of the Flask class and assign it to variable 'app'
 app = Flask(__name__)
 
+
+app.config["DEBUG"] = True
+
 # use decorators to link the function to a url
 @app.route("/")
 @app.route("/hello")
@@ -51,6 +54,6 @@ def index(name):
 		return "Not Found", 404 
 
 # start the development server using the run() method
-# app is run when app.py is executed, not when ran from a different module
+# app is ran when app.py is executed, not when ran from a different module
 if __name__ == "__main__":
 	app.run()
