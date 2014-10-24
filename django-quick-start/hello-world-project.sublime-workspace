@@ -579,6 +579,9 @@
 	},
 	"expanded_folders":
 	[
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-quick-start",
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-quick-start/hello_world_project",
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-quick-start/hello_world_project/hello_world_project"
 	],
 	"file_history":
 	[
@@ -708,8 +711,8 @@
 						"selection":
 						[
 							[
-								717,
-								717
+								603,
+								395
 							]
 						],
 						"settings":
