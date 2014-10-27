@@ -5,6 +5,7 @@ class Post(models.Model):
 	created_at = models.DateTimeField(auto_now_add=True)
 	title = models.CharField(max_length=100)
 	content = models.TextField()
+	# slug = models.CharField(max_length=100, unique=True)
 
 	# customizing the models
 	def __unicode__(self):
