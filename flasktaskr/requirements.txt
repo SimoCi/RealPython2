@@ -1,0 +1,11 @@
+# packages in environment at C:\Anaconda\envs\flasktaskr:
+#
+flask                     0.10.1                   py27_1  
+flask-wtf                 0.8.4                    py27_1  
+itsdangerous              0.24                     py27_0  
+jinja2                    2.7.3                    py27_1  
+markupsafe                0.23                     py27_0  
+python                    2.7.8                         0  
+setuptools                7.0                      py27_0  
+werkzeug                  0.9.6                    py27_1  
+wtforms                   2.0.1                    py27_0  

@@ -7,4 +7,5 @@ urlpatterns = patterns(
 	# this use slugs
 	# url(r'^(?P<slug>\d+)/$', views.post, name='post'),
 	url(r'^(?P<slug>\w+)/$', views.post, name='post'),
+	# url(r'^(?P<slug>\w\d+)/$', views.post, name='post'),
 	)

@@ -4,16 +4,140 @@
 		"selected_items":
 		[
 			[
-				"get",
-				"get_object_or_404"
+				"Da",
+				"DataRequired"
 			],
 			[
-				"Post",
-				"PostAdmin"
+				"Dta",
+				"DataRequired"
 			],
 			[
 				"h",
-				"h3	Tag"
+				"h2	Tag"
+			],
+			[
+				"t",
+				"td	Tag"
+			],
+			[
+				"tb",
+				"table	Tag"
+			],
+			[
+				"o",
+				"option	Tag"
+			],
+			[
+				"for",
+				"form	Tag"
+			],
+			[
+				"clo",
+				"close"
+			],
+			[
+				"co",
+				"commit"
+			],
+			[
+				"re",
+				"redirect"
+			],
+			[
+				"cl",
+				"close"
+			],
+			[
+				"ta",
+				"task_id"
+			],
+			[
+				"tsk",
+				"task_id"
+			],
+			[
+				"lo",
+				"login_required"
+			],
+			[
+				"da",
+				"DATABASE"
+			],
+			[
+				"e",
+				"execute"
+			],
+			[
+				"conn",
+				"connect_db"
+			],
+			[
+				"metho",
+				"methods"
+			],
+			[
+				"task",
+				"task_id"
+			],
+			[
+				"logi",
+				"login"
+			],
+			[
+				"log",
+				"logged_in"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"text",
+				"textarea	Tag"
+			],
+			[
+				"s",
+				"strong	Tag"
+			],
+			[
+				"l",
+				"label	Tag"
+			],
+			[
+				"b",
+				"br"
+			],
+			[
+				"f",
+				"form"
+			],
+			[
+				"login",
+				"login_required"
+			],
+			[
+				"logged",
+				"logged_in"
+			],
+			[
+				"redire",
+				"redirect"
+			],
+			[
+				"red",
+				"redirect"
+			],
+			[
+				"flas",
+				"flash"
+			],
+			[
+				"in",
+				"input"
 			],
 			[
 				"rando",
@@ -24,16 +148,8 @@
 				"cursor"
 			],
 			[
-				"co",
-				"conn"
-			],
-			[
 				"a",
 				"assert_equal"
-			],
-			[
-				"s",
-				"start"
 			],
 			[
 				"ro",
@@ -42,10 +158,6 @@
 			[
 				"theta",
 				"theta_0"
-			],
-			[
-				"conn",
-				"connect"
 			],
 			[
 				"sea",
@@ -70,10 +182,6 @@
 			[
 				"ra",
 				"random"
-			],
-			[
-				"o",
-				"other"
 			],
 			[
 				"P",
@@ -232,6 +340,10 @@
 				"ownerage"
 			],
 			[
+				"get",
+				"get_lovers"
+			],
+			[
 				"m",
 				"meow"
 			],
@@ -246,10 +358,6 @@
 			[
 				"Forw",
 				"ForwardingError"
-			],
-			[
-				"re",
-				"replace"
 			],
 			[
 				"resu",
@@ -298,10 +406,6 @@
 			[
 				"PH",
 				"PHRASE_FIRST"
-			],
-			[
-				"b",
-				"bever_bobane"
 			],
 			[
 				"wo",
@@ -410,115 +514,27 @@
 			[
 				"take",
 				"take_power"
-			],
-			[
-				"C",
-				"Caprica_Six_room"
-			],
-			[
-				"alie",
-				"alien_dead"
-			],
-			[
-				"al",
-				"alien_room"
-			],
-			[
-				"Sp",
-				"Emergency_Spaceship"
-			],
-			[
-				"Ho",
-				"Horny_Caprica"
-			],
-			[
-				"bra",
-				"breaks"
-			],
-			[
-				"key",
-				"key_taken"
-			],
-			[
-				"keys",
-				"keys_taken"
-			],
-			[
-				"Po",
-				"Power-Loader"
-			],
-			[
-				"be",
-				"bear_room"
-			],
-			[
-				"gold",
-				"gold_room"
-			],
-			[
-				"bea",
-				"bear_moved"
-			],
-			[
-				"in",
-				"increment"
-			],
-			[
-				"fo",
-				"for_loop"
-			],
-			[
-				"end",
-				"end_of_loop"
-			],
-			[
-				"whi",
-				"while_loop"
-			],
-			[
-				"sort",
-				"sort_sentence"
-			],
-			[
-				"retur",
-				"return"
-			],
-			[
-				"print_",
-				"print_last_word"
-			],
-			[
-				"brea",
-				"breaks_words"
-			],
-			[
-				"start",
-				"start_point"
-			],
-			[
-				"what",
-				"what1"
-			],
-			[
-				"cure",
-				"current_file"
-			],
-			[
-				"prin",
-				"print_a_line"
-			],
-			[
-				"cu",
-				"current_line"
-			],
-			[
-				"print_a",
-				"print_a_line"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "app/views.py",
+			"settings":
+			{
+				"buffer_size": 3107,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/templates/tasks.html",
+			"settings":
+			{
+				"buffer_size": 2535,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"command_palette":
@@ -547,45 +563,39 @@
 	},
 	"expanded_folders":
 	[
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/binstar_client",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/blog",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/blog/migrations",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/bloggy_project",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/templates",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/templates/blog",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/pillow"
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/flasktaskr",
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/flasktaskr/app",
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/flasktaskr/app/static",
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/flasktaskr/app/static/css",
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/flasktaskr/app/templates"
 	],
 	"file_history":
 	[
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/binstar_client/doc/api.rst",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/binstar_client/.gitignore",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/binstar_client/make_version.py",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/blog/views.py",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/blog/models.py",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/blog/urls.py",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/blog/admin.py",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/blog/migrations/0001_initial.py",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/blog/migrations/0002_auto_20141029_2144.py",
-		"/C/Users/Simo/.condarc",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/django-bloggy.sublime-project",
-		"/C/Users/Simo/Downloads/turnstile_data_master_with_weather.csv",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/templates/blog/post.html",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/templates/blog/index.html",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/bloggy_project/urls.py",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/bloggy_project/settings.py",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/blog/tests.py",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/flask-blog/templates/login.html",
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/flasktaskr/flask-wtf/build.sh",
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/flasktaskr/flask-wtf/bld.bat",
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/flasktaskr/app/templates/login.html",
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/flasktaskr/app/templates/template.html",
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/flasktaskr/app/templates/tasks.html",
+		"/C/Anaconda/envs/_build/Lib/site-packages/README",
+		"/C/Anaconda/envs/_build/Lib/site-packages/_yaml.pyd",
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/flasktaskr/app/static/css/styles.css",
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/flasktaskr/app/run.py",
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/flasktaskr/app/config.py",
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/flasktaskr/app/static/css/style.css",
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/flasktaskr/app/db_create.py",
 		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/flask-blog/templates/template.html",
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/flask-blog/static/css/styles.css",
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/flask-blog/static/css/style.css",
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/flask-blog/blog.py",
 		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/flask-blog/templates/main.html",
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/flask-blog/templates/login.html",
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/sql/hw-sql_2.py",
 		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/flask-blog/login.html",
 		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/flask-blog/main.html",
 		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/sql/assignment3a.py",
 		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/sql/assignment3a-sol.py",
 		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/flask-blog/sql.py",
 		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/sql/assignment3b-sol.py",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/sql/hw-sql_2.py",
 		"/C/PROGRAMMAZIONE/Sviluppo/Python/LPHW/ex36_AlienVSGalactica.py",
 		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/sql/assignment3b.py",
 		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/sql/sqli.py",
@@ -638,9 +648,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
+			"C:\\PROGRAMMAZIONE\\Sviluppo\\Python\\projects\\RealPython2\\flasktaskr"
 		]
 	},
 	"find_state":
@@ -648,6 +659,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"app",
 			"Saturday",
 			"days",
 			"absolute_import",
@@ -700,8 +712,67 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1245,
+								1245
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1080.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/templates/tasks.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2535,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								82,
+								82
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -744,7 +815,7 @@
 	{
 		"height": 0.0
 	},
-	"project": "django-bloggy.sublime-project",
+	"project": "flasktaskr.sublime-project",
 	"replace":
 	{
 		"height": 42.0
@@ -765,7 +836,7 @@
 		[
 			[
 				"",
-				"C:\\PROGRAMMAZIONE\\Sviluppo\\Python\\projects\\RealPython2\\flask-blog\\flask-blog.sublime-project"
+				"C:\\PROGRAMMAZIONE\\Sviluppo\\Python\\projects\\RealPython2\\django-bloggy\\django-bloggy.sublime-project"
 			]
 		],
 		"width": 380.0
