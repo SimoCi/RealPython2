@@ -63,6 +63,18 @@
    {% block content %}
    {% endblock %}
    </div> <!-- /container -->
+   <div class="container">
+     <div class="row">
+       <div class="col-md-8">
+         <h4>Must see</h4>
+           <ul>
+             {% for popular_post in popular_posts %}
+             <li><a href="/blog/{{ popular_post.url }}" target="_blank">{{ popular_post.title }}</a></li>
+             {% endfor %}
+           </ul>
+       </div>
+     </div>
+   </div>
   	
   </body>
 

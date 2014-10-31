@@ -52,7 +52,7 @@ def tasks():
 
 	cur = g.db.execute(
 		"""
-		SELECT name, due_date, priority, task_id 
+		SELECT name, due_date, priority, task_id
 		FROM tasks 
 		WHERE status=1
 		"""
@@ -106,7 +106,7 @@ def new_task():
 		return redirect(url_for('tasks'))
 
 # mark tasks as complete
-@app.route('/complete/<int:task_id>',)
+@app.route('/complete/<int:task_id>/',)
 @login_required
 def complete(task_id):
 	g.db = connect_db()
@@ -123,7 +123,7 @@ def complete(task_id):
 	return redirect(url_for('tasks'))
 
 # Delete tasks
-@app.route('/delete/<int:task_id>',)
+@app.route('/delete/<int:task_id>/',)
 @login_required
 def delete_entry(task_id):
 	g.db = connect_db()

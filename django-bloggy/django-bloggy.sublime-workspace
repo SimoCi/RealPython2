@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ta",
+				"target	Attr"
+			],
+			[
 				"get",
 				"get_object_or_404"
 			],
@@ -510,15 +514,35 @@
 			[
 				"cu",
 				"current_line"
-			],
-			[
-				"print_a",
-				"print_a_line"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "bloggy_project/templates/blog/post.html",
+			"settings":
+			{
+				"buffer_size": 496,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bloggy_project/templates/blog/index.html",
+			"settings":
+			{
+				"buffer_size": 513,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bloggy_project/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 1965,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"command_palette":
@@ -548,22 +572,22 @@
 	"expanded_folders":
 	[
 		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/binstar_client",
 		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project",
 		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/blog",
 		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/blog/migrations",
 		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/bloggy_project",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/templates",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/templates/blog",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/pillow"
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/templates/blog"
 	],
 	"file_history":
 	[
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/bloggy_project/urls.py",
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/bloggy_project/settings.py",
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/blog/models.py",
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/blog/views.py",
+		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/pillow/bld.bat",
 		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/binstar_client/doc/api.rst",
 		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/binstar_client/.gitignore",
 		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/binstar_client/make_version.py",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/blog/views.py",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/blog/models.py",
 		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/blog/urls.py",
 		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/blog/admin.py",
 		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/blog/migrations/0001_initial.py",
@@ -573,8 +597,6 @@
 		"/C/Users/Simo/Downloads/turnstile_data_master_with_weather.csv",
 		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/templates/blog/post.html",
 		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/templates/blog/index.html",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/bloggy_project/urls.py",
-		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/bloggy_project/settings.py",
 		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/django-bloggy/bloggy_project/blog/tests.py",
 		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/flask-blog/templates/login.html",
 		"/C/PROGRAMMAZIONE/Sviluppo/Python/projects/RealPython2/flask-blog/templates/template.html",
@@ -700,8 +722,95 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "bloggy_project/templates/blog/post.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 496,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								388,
+								388
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "bloggy_project/templates/blog/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 513,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								163,
+								163
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "bloggy_project/templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1965,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1942,
+								1942
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 630.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

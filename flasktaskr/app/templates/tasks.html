@@ -4,6 +4,7 @@
 	<h1>Welcome to FlaskTaskr</h1>
 	<a href="/logout">Logout</a>
 	<div class="add-task">
+	<h3>Add a New Task</h3>
 		<table>
 			<tr>
 				<form action="{{ url_for('new_task') }}" method="post">
@@ -17,7 +18,7 @@
 					</td>
 					<td>
 						<label>Priority:  </label>
-						<select name="name" width="100px">
+						<select name="priority" width="100px">
 							<option value="1">1</option>
 							<option value="2">2</option>
 							<option value="3">3</option>
@@ -31,8 +32,8 @@
 						</select>
 					</td>
 					<td>
-						<br/>
-						<br/>
+						<br>
+						<br>
 						<input class="button" type="submit" value="Save">
 					</td>
 				</form>
@@ -81,7 +82,7 @@
 						<th><strong>Actions</strong></th>
 					</tr>
 				</thead>
-				{% for ct in open_tasks %}
+				{% for ct in closed_tasks %}
 					<tr>
 						<td width="300px">{{ ct.name }}</td>
 						<td width="100px">{{ ct.due_date }}</td>
